@@ -30,7 +30,7 @@ client.once(Events.ClientReady, c => {
 // Log in to Discord with your client's token
 client.login(token);
 
-client.on(Events.InteractionCreate, interaction => {
+client.on(Events.InteractionCreate, async interaction => {
     if (!interaction.isChatInputCommand()) return;
 
 	const command = interaction.client.commands.get(interaction.commandName);
