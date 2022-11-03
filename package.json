@@ -1,0 +1,22 @@
+{
+  "name": "fosscu-discord-bot",
+  "version": "1.0.0",
+  "description": "Beep Boop Boop Beep! I love Open Source",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FOSS-Community/fosscu-discord-bot.git"
+  },
+  "author": "akshatcoder-hash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FOSS-Community/fosscu-discord-bot/issues"
+  },
+  "homepage": "https://github.com/FOSS-Community/fosscu-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
+}
