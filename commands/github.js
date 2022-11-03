@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-        .setName('GitHub')
+        .setName('github')
         .setDescription('FOSSCU GitHub account'),
     async execute(interaction){
         // interaction.guild is the object representing the Guild in which the command was run
